@@ -42,9 +42,6 @@ public class FriendiMod
 
     }
 
-
-    //public static void onClientSetup(PlayerEvent.PlayerLoggedInEvent event){}
-
     // You can use SubscribeEvent and let the Event Bus discover methods to call
 
     @SubscribeEvent
@@ -61,8 +58,6 @@ public class FriendiMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            System.out.println("SETUP!!!!!!!");
-
             FriendiClient friendiClient = new FriendiClient();
             friendiClient.start();
 

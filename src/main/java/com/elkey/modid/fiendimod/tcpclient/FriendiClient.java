@@ -7,12 +7,11 @@ import java.io.*;
 import java.net.Socket;
 
 public class FriendiClient {
-    private  static final String IP = "127.0.0.1";
-    private static final int PORT = 8801;
+    private final String IP = "127.0.0.1";
+    private final int PORT = 8801;
     private Socket socket;
     private BufferedReader input;
     private BufferedWriter output;
-    public static FriendiClient instance;
 
     public FriendiClient(){}
 
