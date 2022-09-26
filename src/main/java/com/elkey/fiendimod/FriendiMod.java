@@ -27,14 +27,13 @@ public class FriendiMod
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.register(new FriediEventHandler());
+        MinecraftForge.EVENT_BUS.register(new FriediEventHandler()); //unused
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
-
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -57,8 +56,6 @@ public class FriendiMod
             friendiClient.start();
 
         }
-
     }
-
 
 }
