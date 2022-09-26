@@ -1,4 +1,4 @@
-package com.elkey.modid.fiendimod.event;
+package com.elkey.fiendimod.event;
 
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

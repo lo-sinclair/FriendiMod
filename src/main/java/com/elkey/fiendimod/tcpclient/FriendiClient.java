@@ -1,4 +1,4 @@
-package com.elkey.modid.fiendimod.tcpclient;
+package com.elkey.fiendimod.tcpclient;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
